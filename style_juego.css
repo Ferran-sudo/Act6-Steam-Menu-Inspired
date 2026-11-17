@@ -1,0 +1,198 @@
+body{
+    background-color: rgb(14, 27, 43);
+    font-family: sans-serif;
+
+    user-select: none;
+    cursor: default;
+}
+
+img{
+    border-radius: 3px;
+}
+
+h1{
+    color: white;
+}
+
+.cajaPrincipal{
+    width: 1400px;
+    height: 700px;
+
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+
+
+
+
+/* -- Logo y nombre del juego -- */
+
+
+.logoicono{
+    margin-top: 23px;
+}
+
+.nombreJuego{
+    width: 290px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* -- Caja principal con el video trailer y la info del juego -- */
+
+
+.informacion{
+    width: 1400px;
+    height: 500px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+video{
+    width: 800px;
+    height: 450px;
+
+    border-radius: 10px;
+}
+
+.contenido{
+    margin-left: 50px;
+
+    width: 450px;
+    height: 450px;
+
+    border-radius: 5px;
+
+    background-color: rgb(27, 38, 58);
+
+    text-align: left;
+}
+
+.header{
+    width: 360px;
+
+    border-radius: 5px;
+
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+p{
+    color: white;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+span{
+    color: skyblue;
+}
+
+span:hover{
+    color: rgb(197, 247, 244);
+}
+
+.cajaetiquetas{
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    margin-left: 10px;
+}
+
+.etiqueta{
+    width: auto;
+    height: 20px;
+
+    font-size: 13px;
+
+    color: skyblue;
+    background-color: rgba(38, 89, 109, 0.76);
+
+    border-radius: 4px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.etiqueta:hover{
+    color: rgb(180, 224, 241);
+    background-color: rgba(59, 163, 204, 0.678);
+}
+
+
+
+
+
+/* -- Illo las magenes extra de abajo -- */
+
+
+.imagenesExtra{
+    width: 1400px;
+    height: 120px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagen{
+    transition: 0.8s;
+}
+
+.imagen:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    
+    rotate: 1deg;
+}
+
+.imagen1{
+    width: 260px;
+    height: 140px;
+
+    border-radius: 10px;
+}
+
+.imagen2{
+    width: 260px;
+    height: 140px;
+
+    border-radius: 10px;
+}
+
+.imagen3{
+    width: 260px;
+    height: 140px;
+
+    border-radius: 10px;
+}
+
+.imagen4{
+    width: 260px;
+    height: 140px;
+
+    border-radius: 10px;
+}
+
+.imagen5{
+    width: 260px;
+    height: 140px;
+
+    border-radius: 10px;
+}
+
+
+
+
+
+/* -- Esto es para ver la caja del div para cuando veo que no va muy bien o para ver como estan estructuradas algunas cosas que viendo el propio html no se ven bien -- */
+/*
+div{
+    border: white solid 1px;
+}

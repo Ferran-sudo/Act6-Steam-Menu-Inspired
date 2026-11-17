@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    user-select: none;
+    cursor: default;
+}
+
+
+/* -- -- Menu y Usuario -- -- */
+
+/*(He hecho un css a parte para el menu porque asi está mas organizado y también se me estaba yendo de las manos)*/
+
+/* -- Botones del menu -- */
+
+
+
+.steam_logo{
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 100px;
+}
+
+.horizontal{
+    background-color: rgb(22, 29, 37);
+    
+    display: flex;
+    justify-content: space-between;
+
+    font-weight: bold;
+}
+
+.botonesmenu {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.elemento_principal {
+    height: 40px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    background-color: rgb(23, 49, 69);
+    border-radius: 5px;
+
+    align-content: center;
+    display: inline-grid;
+
+    color:aqua;
+}
+
+.elemento_secundario {
+    height: 40px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    background-color: rgb(39, 45, 55);
+    border-radius: 5px;
+
+    align-content: center;
+    display: inline-grid;
+}
+
+.elemento_secundario:hover{
+    background-color: rgba(119, 144, 177, 0.377);
+    color: rgb(255, 5, 5);
+}
+
+.enlace {
+    text-decoration: none;
+    color: white;
+}
+
+.enlace_principal {
+    text-decoration: none;
+    color: rgb(134, 221, 255);
+}
+
+
+
+/* -- Botones del usuario -- */
+
+
+
+.cajauser{
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+}
+
+.notifi{
+    height: 40px;
+    width: 45px;
+
+    background-color: rgb(39, 45, 55);
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noti{
+    height: 25px;
+    width: 20px;
+}
+
+.usuario {
+    height: 40px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    background-color: rgb(39, 45, 55);
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+    color: white;
+}
+
+.pfp{
+    margin-top: 3px;
+    margin-right: 5px;
+
+    height: 30px;
+    width: 30px;
+}
+
+/*
+div{
+    border: white solid 1px;
+}

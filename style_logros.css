@@ -1,0 +1,320 @@
+body{
+    background-color: rgb(14, 27, 43);
+    font-family: sans-serif;
+    
+    user-select: none;
+    cursor: default;
+}
+
+img{
+    border-radius: 3px;
+}
+
+h1{
+    color: white;
+}
+
+.cajaPrincipal{
+    width: 1000px;
+    height: 800px;
+
+    margin-top: 50px;
+    margin-left: 450px;
+
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.cabeceralogros{
+    width: 950px;
+    height: 700px;
+}
+
+
+
+/* -- Logo y nombre del juego -- */
+
+
+
+.logoicono{
+    width: 35px;
+    height: 35px;
+    margin-top: 23px;
+}
+
+.nombreJuego{
+    width: 300px;
+    height: 60px;
+
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* -- Caja del porcentaje con el numero de logros que tengo -- */
+
+
+
+.cajitabarralogros{
+    height: 80px;
+
+    background-color: rgba(128, 128, 128, 0.3);
+}
+
+.barralogros{
+    width: 930px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textoblanco{
+    color: white;
+}
+
+.conseguidos {
+    width: 250px;
+
+    margin-left: 20px;
+}
+
+.porcentajelogrostotales{
+    width: 50px;
+}
+
+.barraporcentajelogros{
+    width: 900px;
+    height: 15px;
+
+    margin-left: 20px;
+
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.barraporcentajerelleno{
+    width: 69%;
+    height: 100%;
+    
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+
+
+/* -- Los dos botones de los logros que filtran por Logros personales y Logros globales -- */
+
+
+
+.pestanasLogros {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    display: flex;
+    justify-content: center;
+
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.pestana {
+    color: #8a9ba8;
+
+    padding: 6px 15px;
+}
+
+.pestanaactiva {
+    padding: 0px 15px 0px 15px;
+
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+
+    border-radius: 15px;
+
+    align-content: center;
+}
+
+
+
+/* -- Foto de perfil, busqueda de amigos y % de jugadores -- */
+
+
+
+.barraFiltroLogros{
+    padding: 15px;
+
+    background-color: rgb(22, 33, 52);
+    border-radius: 6px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconoPerfilMini{
+    width: 30px;
+    height: 30px;
+}
+
+.PerfilLogros{
+    width: 30px;
+    height: 30px;
+}
+
+.nosequenombreponer{
+    width: 470px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Buscador{
+    width: 250px;
+
+    padding: 8px 12px;
+
+    color: white;
+    background-color: rgb(14, 22, 36);
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+
+    outline: none; /* El outline none este le quita el bordecito blanco a la caja de texto cuando vas a escribir (por si acaso) */
+}
+
+.logrosdetodoslosjugadores{
+    color: #a0b0c0;
+
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+
+/* -- Logros en si :) -- */
+
+
+
+.contenedorLogros{
+    width: 950px;
+    height: 500px;
+
+    margin-top: 20px;
+
+    justify-items: center;   
+    
+    overflow-y: scroll;                     /*                      */
+}                                           /*                      */
+                                            /*    El 90% de esto    */
+.barra{                                     /*                      */
+    overflow: -moz-scrollbars-none;         /*                      */
+    -ms-overflow-style: none;               /*    lo he cogido de   */
+}                                           /*                      */
+                                            /*                      */
+::-webkit-scrollbar {                       /*   stackoverflow.com  */
+  display: none;                            /*                      */
+}                                           /*                      */
+
+.Logro{
+    width: 900px;
+    height: 80px;
+
+    border-radius: 5px;
+
+    background-color:black;
+
+    display: flex;
+
+    margin-bottom: 10px;
+
+    color: white;
+}
+
+.check{
+    width: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 30px;
+
+    background-color: #23262e;
+
+    border-radius: 5px 0px 0px 5px;
+}
+
+.derecha{
+    width: 860px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.separarinfologro{
+    width: 700px;
+
+    display: flex;
+
+    margin-left: 10px;
+
+    align-items: center;
+}
+
+.barraProgresoLogro{
+    background-color: gray;
+
+    display: flex;
+}
+
+.logroIconoDiv{
+    width: 60px;
+    height: 60px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    border-radius: 5px;
+}
+
+.logroIcono{
+    width: 60px;
+    height: 60px;
+
+    border-radius: 5px;
+}
+
+.infoLogro{
+    height: 50px;
+    margin-left: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nombreLogro{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.descripcionLogro{
+    color: rgb(173, 173, 173);
+}
+
+.LogroPorcentraje{
+    width: 60px;
+}
+
+
+
+/* -- Esto es para ver la caja del div para cuando veo que no va muy bien o para ver como estan estructuradas algunas cosas que viendo el propio html no se ven bien -- */
+/*
+div{
+    border: rgba(255, 255, 255, 0.2) solid 1px;
+}

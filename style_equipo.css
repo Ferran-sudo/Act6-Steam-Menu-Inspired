@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(14, 27, 43);
+    font-family: sans-serif;
+
+    user-select: none;
+    cursor: default;
+}
+
+img{
+    border-radius: 3px;
+}
+
+h1{
+    color: white;
+}
+
+
+
+/* -- Caja principal de RobTop con su foto e informacion -- */
+
+
+
+.cajaPrincipal{
+    width: 1400px;
+    height: 700px;
+
+    margin-top: 100px;
+    margin-left: 200px;
+
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulo{
+    width: 1400px;
+    height: 50px;
+
+    margin-bottom: 20px;
+
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.desarrollador{
+    display: flex;
+}
+
+.foto{
+    width: 250px;
+    height: 250px;
+
+    border-radius: 20px;
+
+    transition: 1s;
+}
+
+.foto:hover{
+    scale: 1.03;
+
+    rotate: 1deg;
+
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.informacion{
+    width: 1100px;
+    height: 250px;
+
+    border-radius: 20px;
+
+    margin-left: 30px;
+
+    background-color: rgba(23, 113, 173, 0.185);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    transition: 1s;
+}
+
+.informacion:hover{
+    scale: 1.03;
+}
+
+.nombre{
+    margin-top: 20px;
+    margin-left: 30px;
+
+    color: white;
+    font-size: 30px;
+}
+
+.descripcion{
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+
+    color: white;
+    font-size: 25px;
+}
+
+
+
+/* -- Esto es para ver la caja del div para cuando veo que no va muy bien o para ver como estan estructuradas algunas cosas que viendo el propio html no se ven bien -- */
+/*
+div{
+    border: white solid 1px;
+}
